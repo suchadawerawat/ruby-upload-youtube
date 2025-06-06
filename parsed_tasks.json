@@ -1,0 +1,122 @@
+[
+  {
+    "id": "TASK-FE-001",
+    "developer": "A",
+    "dependencies": []
+  },
+  {
+    "id": "TASK-FE-002",
+    "developer": "A",
+    "dependencies": [
+      "TASK-FE-001"
+    ]
+  },
+  {
+    "id": "TASK-FE-003",
+    "developer": "A",
+    "dependencies": [
+      "TASK-FE-001",
+      "TASK-FE-002"
+    ]
+  },
+  {
+    "id": "TASK-FE-004",
+    "developer": "A",
+    "dependencies": [
+      "TASK-FE-001",
+      "TASK-FE-002"
+    ]
+  },
+  {
+    "id": "TASK-FE-005",
+    "developer": "A",
+    "dependencies": [
+      "TASK-FE-004"
+    ]
+  },
+  {
+    "id": "TASK-FE-006",
+    "developer": "B",
+    "dependencies": [
+      "TASK-FE-001",
+      "TASK-FE-004"
+    ]
+  },
+  {
+    "id": "TASK-FE-007",
+    "developer": "B",
+    "dependencies": [
+      "TASK-FE-001",
+      "TASK-FE-002",
+      "TASK-FE-004"
+    ]
+  },
+  {
+    "id": "TASK-FE-008",
+    "developer": "B",
+    "dependencies": [
+      "TASK-FE-007",
+      "TASK-FE-002"
+    ]
+  },
+  {
+    "id": "TASK-FE-009",
+    "developer": "C",
+    "dependencies": [
+      "TASK-FE-008",
+      "TASK-FE-002",
+      "TASK-FE-013"
+    ]
+  },
+  {
+    "id": "TASK-FE-010",
+    "developer": "C",
+    "dependencies": [
+      "TASK-FE-001",
+      "TASK-FE-002",
+      "TASK-FE-004",
+      "TASK-FE-013"
+    ]
+  },
+  {
+    "id": "TASK-FE-011",
+    "developer": "C",
+    "dependencies": [
+      "TASK-FE-007",
+      "TASK-FE-008",
+      "TASK-FE-013"
+    ]
+  },
+  {
+    "id": "TASK-FE-012",
+    "developer": "C",
+    "dependencies": []
+  },
+  {
+    "id": "TASK-FE-013",
+    "developer": "C",
+    "dependencies": [
+      "TASK-FE-001"
+    ]
+  },
+  {
+    "id": "TASK-FE-014",
+    "developer": "C",
+    "dependencies": []
+  },
+  {
+    "id": "TASK-FE-015",
+    "developer": "C",
+    "dependencies": []
+  },
+  {
+    "id": "TASK-FE-016",
+    "developer": "All",
+    "dependencies": []
+  },
+  {
+    "id": "TASK-FE-017",
+    "developer": "All",
+    "dependencies": []
+  }
+]
